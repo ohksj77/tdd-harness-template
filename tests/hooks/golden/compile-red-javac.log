@@ -1,0 +1,17 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:compileTestJava FAILED
+/w/core/src/test/java/com/acme/user/UserServiceTest.java:11: error: cannot find symbol
+    private UserService service;
+            ^
+  symbol:   class UserService
+  location: class UserServiceTest
+/w/core/src/test/java/com/acme/user/UserServiceTest.java:59: error: cannot find symbol
+    assertThatThrownBy(() -> service.findById(9L)).isInstanceOf(UserNotFoundException.class);
+                                                                ^
+  symbol:   class UserNotFoundException
+  location: class UserServiceTest
+2 errors
+
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':core:compileTestJava'.

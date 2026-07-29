@@ -1,0 +1,6 @@
+> Task :core:compileJava UP-TO-DATE
+> Task :core:compileTestJava UP-TO-DATE
+> Task :core:test UP-TO-DATE
+
+BUILD SUCCESSFUL in 421ms
+3 actionable tasks: 3 up-to-date

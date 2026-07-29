@@ -1,0 +1,9 @@
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+.claude/
+.tdd-state/
+CLAUDE.md
+core/src/**/*.java

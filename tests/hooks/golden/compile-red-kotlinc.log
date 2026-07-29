@@ -1,0 +1,8 @@
+> Task :core:compileKotlin UP-TO-DATE
+> Task :core:compileTestKotlin FAILED
+e: file:///w/core/src/test/kotlin/com/acme/order/OrderServiceTest.kt:9:23 Unresolved reference: OrderService
+e: file:///w/core/src/test/kotlin/com/acme/order/OrderServiceTest.kt:22:9 Unresolved reference: Money
+
+FAILURE: Build failed with an exception.
+* What went wrong:
+Execution failed for task ':core:compileTestKotlin'.

@@ -1,0 +1,7 @@
+> Task :core:compileJava
+
+FAILURE: Build failed with an exception.
+* What went wrong:
+Could not resolve all files for configuration ':core:testRuntimeClasspath'.
+> Could not resolve org.assertj:assertj-core:3.26.3.
+  > Connection refused: repo.maven.apache.org

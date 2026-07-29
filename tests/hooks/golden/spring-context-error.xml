@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.acme.web.OrderControllerTest" tests="1" skipped="0" failures="0" errors="1" timestamp="2026-07-29T06:10:00" hostname="build" time="1.912">
+  <testcase name="initializationError" classname="com.acme.web.OrderControllerTest" time="0.0">
+    <error message="Failed to load ApplicationContext" type="java.lang.IllegalStateException">
+java.lang.IllegalStateException: Failed to load ApplicationContext for [WebMergedContextConfiguration@1a2b3c]
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.acme.web.OrderService' available
+	at com.acme.web.OrderController.&lt;init&gt;(OrderController.java:18)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:311)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:115)
+</error>
+  </testcase>
+</testsuite>

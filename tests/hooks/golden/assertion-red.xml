@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.acme.user.UserServiceTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2026-07-29T06:00:00" hostname="build" time="0.114">
+  <testcase name="findsExistingUser" classname="com.acme.user.UserServiceTest" time="0.01"/>
+  <testcase name="rejectsUnknownId" classname="com.acme.user.UserServiceTest" time="0.09">
+    <failure message="expected UserNotFoundException" type="org.opentest4j.AssertionFailedError">
+org.opentest4j.AssertionFailedError: expected UserNotFoundException to be thrown
+	at com.acme.user.UserService.findById(UserService.java:41)
+	at com.acme.user.UserServiceTest.rejectsUnknownId(UserServiceTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:727)
+</failure>
+  </testcase>
+  <testcase name="listsAll" classname="com.acme.user.UserServiceTest" time="0.014"/>
+</testsuite>
