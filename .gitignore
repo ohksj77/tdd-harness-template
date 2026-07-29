@@ -1,0 +1,14 @@
+# TDD 하네스 런타임
+.tdd-state/
+_workspace/
+_workspace_*/
+
+# Gradle (fixtures)
+.gradle/
+build/
+
+# macOS
+.DS_Store
+
+# 설치 백업
+*.bak.*

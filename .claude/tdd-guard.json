@@ -1,0 +1,5 @@
+{
+  "_comment": "템플릿 저장소 자체의 설정. 여기엔 Java/Kotlin 소스가 없으므로 가드를 끈다. 대상 프로젝트에는 install.sh 가 assets/tdd-guard.default.json 을 enabled:true 로 심는다.",
+  "enabled": false,
+  "scopeMode": "warn"
+}
